@@ -123,9 +123,4 @@ $reveal-border-color:    #666 !default;
       &.expand { @include reveal-modal-base(false, 95%); }
     }
   }
-
-  // Reveal Print Styles
-  @media print {
-    div:not(.reveal-modal) { display: none; }
-  }
 }
